@@ -18,3 +18,8 @@ Pour lancer l'application, il suffit de lancer la commande suivante:
 ```bash
 docker compose up
 ```
+
+## Documentation
+```bash
+npm run openapi:generate
+```

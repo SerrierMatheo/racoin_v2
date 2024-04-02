@@ -1,0 +1,17 @@
+{
+    "name": "app",
+    "version": "1.0.0",
+    "description": "Racoin est une application de vente en ligne entre particulier.",
+    "main": "index.js",
+    "scripts": {
+        "build": "sass scss/master.scss public/stylesheets/master.css --style expanded",
+        "build:prod": "sass scss/master.scss public/stylesheets/master.css --style compressed",
+        "watch": "sass --watch scss/master.scss public/stylesheets/master.css --style expanded",
+        "openapi:generate": "./vendor/bin/openapi ./actions/ -o ./config/openapi.json"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "sass": "^1.72.0"
+    }
+}
